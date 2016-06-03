@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <FrameLayout 
+          android:id="@+id/framelayout"
+          android:layout_weight="1"
+          android:layout_width="match_parent"
+          android:layout_height="0dp">
+          
+      </FrameLayout>
+    
+     <TextView 
+         android:layout_width="match_parent"
+         android:layout_height="1dp"
+         android:background="@color/gray_normal"/>
+  <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:orientation="horizontal"
+       android:background="#FFFFFF">
+       
+       <RelativeLayout 
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1">
+           
+           <ImageView android:id="@+id/story"
+           android:layout_width="35dp"
+           android:layout_height="35dp"
+           android:layout_centerInParent="true"
+           android:src="@drawable/img_story_choose"/>
+       </RelativeLayout>
+       <RelativeLayout 
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1">
+           
+         <ImageView android:id="@+id/find"
+           android:layout_width="35dp"
+           android:layout_height="35dp"
+           android:layout_centerInParent="true"
+           android:src="@drawable/img_findings"/>
+       </RelativeLayout>
+       
+       <RelativeLayout 
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1">
+           
+          <ImageView android:id="@+id/message"
+           android:layout_width="35dp"
+           android:layout_height="35dp"
+           android:layout_centerInParent="true"
+           android:src="@drawable/img_message"/>
+       </RelativeLayout>
+      
+      <RelativeLayout 
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1">
+          
+          <ImageView android:id="@+id/my"
+           android:layout_width="35dp"
+           android:layout_height="35dp"
+           android:layout_centerInParent="true"
+           android:src="@drawable/img_my"/>
+      </RelativeLayout>
+       
+   </LinearLayout>
+
+</LinearLayout>
